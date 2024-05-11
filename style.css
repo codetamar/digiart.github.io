@@ -1,10 +1,10 @@
 @font-face{
     font-family: 'CircularStd';
-    src:url(/fonts/CircularStd-Black.otf);
+    src:url(CircularStd-Black.otf);
 }
 @font-face{
     font-family: 'CircularMedium';
-    src:url(/fonts/CircularStd-Medium.otf);
+    src:url(CircularStd-Medium.otf);
 }
 
 header{
@@ -95,7 +95,7 @@ nav a:hover{
 }
 
 .primal-section{
-    background-image:url(/asset/img/bg-section/bg-home-1.jpg) ;
+    background-image:url(bg-home-1.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -160,7 +160,7 @@ nav a:hover{
 /*-___Body__-*/
 body{
    margin: 0;
-   background-image: url(/asset/img/bg-section/bg-home-1.jpg);
+   background-image: url(bg-home-1.jpg);
 }
 
 .logo{ 
