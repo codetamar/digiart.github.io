@@ -1,0 +1,235 @@
+@font-face{
+    font-family: 'CircularStd';
+    src:url(/fonts/CircularStd-Black.otf);
+}
+@font-face{
+    font-family: 'CircularMedium';
+    src:url(/fonts/CircularStd-Medium.otf);
+}
+
+header{
+    display:flex;
+    min-height:110px;
+    background:#52028a;
+   /* background:rgb(15, 15, 15);*/
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+a{
+   text-decoration: none;
+   color:white; 
+}
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 10px;
+    }
+
+    .primal-section h1{
+        transform: scale(60%);
+        text-align:center;
+         }   
+    .primal-section p{
+        width: 374px !important;
+    }
+
+
+    .buttons-primal a:nth-child(2){
+        visibility: hidden;
+    }
+    
+    .buttons-primal a:nth-child(3){
+        visibility: hidden;
+
+    }
+
+    .mockuprrss{
+        visibility: hidden;
+    }
+}
+
+@media (max-width:1040px){
+    .mockuprrss{
+        visibility: hidden;
+    }
+    .primal-section p{
+        width: 20px;
+    }
+
+}
+
+@media (max-width:1500px){
+ .mockuprrss{
+        visibility: hidden;
+    }
+}
+
+
+nav{
+ font-family:'CircularStd';
+ font-size:20px;
+}
+
+nav a{
+  font-weight: 600;
+  padding-right:50px;
+}
+
+nav a:hover{
+    color:rgb(145, 145, 145);
+}
+
+.mockuprrss{
+    width:40%;
+    float:right;
+    position: relative;
+    bottom:400px;
+    right:50px;
+}
+
+.primal-section{
+    background-image:url(/asset/img/bg-section/bg-home-1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    flex:1;
+    flex-wrap: wrap;
+    height:700px;
+    padding:20px;
+}
+
+
+.primal-section h1{
+    font-family: 'CircularStd';
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    font-weight: 100;
+    margin: 0 60px;
+    margin-left:100px;
+    margin-top:100px;
+}
+
+.primal-section p{
+    width: 800px;
+    margin-left:100px;
+
+}
+
+.primal-section p:first-child{
+    font-family:'CircularMedium';
+    font-size:20px;
+}
+
+.primal-section p:nth-child(2){
+    font-family: 'CircularStd';
+    font-size:13px;
+
+}
+
+
+/*-_____Botones_____-*/
+
+.buttons-primal{
+    margin-top:90px;
+    margin-left:100px;
+}
+
+
+.buttons-primal a{
+    padding:30px;
+    margin-right:10px;
+    border-radius:6px;
+    background:#52028a;
+}
+
+.buttons-primal a:nth-child(3){
+    background: rgb(189, 100, 253);
+    font-family: 'CircularStd';
+}
+
+
+/*-___Body__-*/
+body{
+   margin: 0;
+   background-image: url(/asset/img/bg-section/bg-home-1.jpg);
+}
+
+.logo{ 
+    display:flex;
+}
+
+.logo img{
+    height:100px;
+    /*
+    background: #52028a;
+    */
+}
+
+.nombre-empresa {
+font-family: 'CircularStd';
+font-size: 30px;
+  text-align: center;
+  margin:40px;
+  position: relative;
+  right:40px;
+}
+
+.home{
+display:flex;
+flex-wrap: wrap;
+}
+
+.in-flex{
+flex:1;
+min-width: 250px;
+padding:20px;
+margin:25px;
+}
+
+.in-flex :first-child{
+    flex:2;
+    padding:25px;
+    margin:20px;
+    margin-bottom:0px;
+    
+}
+
+.in-flex div{
+    padding:25px;
+    margin:20px;
+}
+
+
+.asesoramiento{
+    color:white;
+    font-family: 'CircularStd';
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0px;
+    background:#310253;
+    height:50px;
+    padding:20px;
+}
+
+.asesoramiento a{
+
+  text-align:center;
+  display: inline-block;
+  width: 100%;
+  font-size:40px;
+}
+
+
+
+
+/*Autor: David Contreras (c).*/
